@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Veyran Accounting</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Spell Tracker</h1>
+
+    <div class="toggles">
+      <label><input type="checkbox" id="veyran" /> Veyran</label>
+      <label><input type="checkbox" id="krarkashima" /> Krark + Sakashima</label>
+    </div>
+
+    <div class="stats">
+      <p>Spells Cast: <span id="spells">0</span></p>
+      <p>Triggers: <span id="triggers">0</span></p>
+      <p>Copies: <span id="copies">0</span></p>
+    </div>
+
+    <button id="castSpell">Cast Spell</button>
+    <button id="reset">Reset</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
